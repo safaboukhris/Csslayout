@@ -1,0 +1,353 @@
+*{
+margin: 3px;
+padding:5px;
+font-family: 'Roboto', sans-serif;
+}
+/* header section */
+.divimagelogo{
+  width: 70%;
+  display: block;
+}
+.divimagelogo img{
+  width: 35%;
+}
+
+nav ul li{
+    display:inline;
+    padding: 2px;
+    position: right;
+
+}
+
+nav a{
+    text-decoration: none;
+    font-size: larger;
+    font-weight: 230px;
+    
+}
+
+nav a:hover{
+    color:rgb(18, 163, 132)
+}
+
+.header{
+    position:sticky;
+    top:0;
+    width:80%;
+    padding:15px 100px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+/* main section */
+.docplanner{
+    font-size: 32px;
+    text-decoration: none;
+    font-weight: 700px;
+    font-style: oblique;
+}
+ .divimage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px; 
+ }
+ img{
+    width:80px ;
+ }
+ /* main title */
+ .div1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .div1 h1{
+    font-style: oblique;
+    color: rgb(18, 163, 132);
+
+ }
+  /* float paragraph */
+  .divparagraphe{
+    overflow: hidden;
+  }
+  .p1{
+    float: left;
+    width: 35%;
+    margin-left: 170px;
+    text-align: justify;
+    line-height: 30px;
+    color:gray;
+    font-size: larger;
+  }
+
+  .p2{
+    float: right;
+    width: 35%;
+    margin-right: 170px;
+    text-align: justify;
+    line-height: 30px;
+    color:gray;
+    font-size: larger;
+  }
+/* 3 box container */
+  .box1{
+    border-radius: 20px;
+    width: 300px;
+    height: 315px;
+    background: rgb(25, 209, 185);
+    margin:10px;
+    position: relative;
+  }
+
+  .divbox1{
+    position: absolute;
+    padding: 15px;
+    color:rgb(225,255,255);
+  }
+  .choosecountry1{
+    appearance: none;
+    background-color: rgb(20,209,185);
+    text-decoration: underline;
+    color: rgb(225,255,255);
+  }
+
+  .box2{
+    border-radius: 20px;
+    width: 300px;
+    height: 315px;
+    background:rgb(80, 143, 226);
+    margin: 10px;
+    position:relative;
+  }
+  .divbox2{
+    position: absolute;
+    padding: 15px;
+    color:rgb(225,255,255);
+  }
+  .choosecountry2{
+    appearance: none;
+    background-color: rgb(80,143,226);
+    text-decoration: underline;
+    color: rgb(225,255,255);
+  }
+
+  .box3{
+    border-radius: 20px;
+    width: 300px;
+    height: 315px;
+    background: rgb(49, 60, 72);
+    margin: 10px;
+    position: relative;
+  }
+  .divbox3{
+    position: absolute;
+    padding:15px;
+    color: rgb(225,255,255);
+  }
+  .selectbox3{
+    appearance: none;
+    text-decoration: underline;
+    background-color: rgb(49,60,72);
+    color:rgb(225,255,255)
+  }
+  .selectbox33{
+    appearance: none;
+    text-decoration: underline;
+    background-color: rgb(49,60,72);
+    color:rgb(225,255,255);
+  }
+
+   .boxcontainer{
+    display: flex;
+    justify-content:center; 
+    margin-top: 50px;
+  } 
+  /* use of css grid */
+  .grid-container {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(6,200px); 
+    grid-gap: 10px; 
+    grid-template-rows: repeat(3,50px);
+    margin-top: 50px;
+    
+}
+
+.grid-item {
+    /* padding: 15px; */
+    text-align: center;
+    font-size: 15px;
+    color: grey;
+    padding:15px;
+
+}
+.grid-item1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    text-align: left;
+    font-size: 35px;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 10px;
+    color:rgb(25,209,185);
+} 
+.grid-item :hover{
+  color:rgb(25, 209, 185);
+}
+
+/* grand box bleu */
+.containerstatistique{
+    background: linear-gradient(80deg,rgb(221, 234, 240),rgb(213,244,246));
+    display: flex;
+    height: 500px;
+    padding: 4%; 
+    overflow: hidden;
+}
+.introductionstatistique{
+  width: 30%;
+}
+.introductionstatistique h1{
+  color: rgb(0,177,159);
+  margin-bottom: 7%;
+  margin-left: 15%;
+}
+.introductionstatistique p{
+  color:grey;
+  font-size: 18px;
+  line-height: 30px;
+  margin-left: 15px;
+} 
+.logointroduction img{
+  height: 250px;
+  width: 100%;
+  margin-top: 10%;
+  margin-left: 30%;
+}
+
+.stats {
+  text-align: center;
+  width: 60%;
+  margin: 0 4% 0 19%;
+
+}
+.stats h3 {
+  color: rgb(0,197,155);
+  justify-content: center;
+}
+  .stats-box {
+    height: 220px;
+    background-color: white;
+    border-radius: 3%;
+    width: 33%;
+    margin-right: 5%;
+  }
+  .stats-box-colomn-2 {
+      display: flex;
+      margin-top:5%;
+  }
+  .stats-box-colomn-1 {
+      display: flex;
+  }
+
+.box-3 p {
+  color:grey;
+}
+.box-4 p {
+  color: grey;
+}
+.box-2 p{
+  color: grey;
+}
+.box-1 p{
+  color:grey
+}
+
+/* section dinformation  sous le box bleu */
+.informations{
+  text-align: center;
+}
+.maininformations h2{
+  color:rgb(0,197,155);
+  line-height: 40px;
+}
+.maininformations p{
+  color: grey;
+  line-height: 30px;
+  font-size: larger;
+}
+
+/* list des offices autour du monde */
+.offices-colomn1{
+  display: flex;
+  justify-content: space-evenly;
+}
+.offices-colomn2{
+  display: flex;
+  justify-content: space-evenly;
+   margin-top: 1%;
+}
+.offices-colomn3{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 1%;
+}
+.offices-colomn4{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 1%;
+}
+
+.offices-box h2 {
+  color:grey;
+}
+
+.opening-information {
+  text-align: right;
+  margin-top: -17%;
+}
+.opening-information input {
+  background-color: rgb(61,131,223);
+  border-color: rgb(61,131,223);
+  color:white;
+  height: 35px;
+  border-radius: 10px; 
+  width: 120px;
+  border-color: rgb(61,131,223);
+}
+.offices-box-image img{
+  width: 300px;
+  height: 250px;
+ }
+ 
+/* la paragraphe finale */
+ .endparagraph{
+  text-align: center;
+ }
+ .endparagraph h2{
+  color: grey;
+ }
+ .endparagraph input{
+  background-color:rgb(61,131,223);
+  border-color: rgb(61,131,223);
+  height: 35px;
+  color: white;
+ }
+/* footer section */
+ footer{
+  text-align: center; 
+  color: grey;
+ }
+ .divfooter{
+  display: inline;
+  text-align: center;
+ }
+ .divfooter a {
+  text-decoration: none;
+  color: rgb(61,131,223);
+ }
+ footer p {
+  color: rgb(120, 122, 124);
+ }
