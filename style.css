@@ -270,6 +270,9 @@ nav a{
 .box-1 p{
   color:grey
 }
+.translate{
+  transform: translateY(20px);
+}
 
 /* section dinformation  sous le box bleu */
 .informations{
